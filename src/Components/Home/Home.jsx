@@ -16,7 +16,7 @@ import Resume from "../Resume/Resume";
 import People from "../People/People";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
-import bg from "../../Resources/banner-guy.png";
+import bg from "../../Resources/cutout1c.png";
 import toko from "../../Resources/toko.png";
 import { HashLink as Link } from "react-router-hash-link";
 
@@ -31,14 +31,14 @@ const Home = () => {
           <p className="page-content-p">Get ready to turn ideas into reality</p>
           <div className="page-top-btn-flex">
             <div>
-              <button className="btn btn-info text-white">
+              <button style={{boxShadow: "0px 5px 30px black"}} className="btn btn-info text-white">
                 <Link className="fix-01 text-white" to="#about-me-id">
                   Hire Me
                 </Link>
               </button>
             </div>
             <div>
-              <button className="btn btn-warning text-white"><a href="https://raghavkhandelwal11.github.io/Resume/#" style={{textDecoration: 'none', color: "white"}} target="_blank" rel="noopener noreferrer">Get Resume</a></button>
+              <button style={{boxShadow: "0px 5px 30px black"}} className="btn btn-warning text-white"><a href="https://raghavkhandelwal11.github.io/Resume/#" style={{textDecoration: 'none', color: "white"}} target="_blank" rel="noopener noreferrer">Get Resume</a></button>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from "../../Resources/resume-guy-img.png";
+import img1 from "../../Resources/cutout2.png";
 import ln from "../../Resources/linkedin-logo.png";
 import tw from "../../Resources/twitter.png";
 import dis from "../../Resources/discord.png";
